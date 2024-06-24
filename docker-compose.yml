@@ -1,7 +1,7 @@
 version: "3"
 services:
   mavenwebapp:
-    image: 142390311734.dkr.ecr.ap-south-1.amazonaws.com/maven-web-application:VERSION
+    image: 142390311734.dkr.ecr.ap-south-1.amazonaws.com/dummy:VERSION
     
     ports:
     - 9090:8080
