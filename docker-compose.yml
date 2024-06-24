@@ -1,0 +1,11 @@
+version: "3"
+services:
+  mavenwebapp:
+    image: 142390311734.dkr.ecr.ap-south-1.amazonaws.com/maven-web-application:VERSION
+    
+    ports:
+    - 9090:8080
+    networks:
+    - mavenappbridge
+networks:
+  mavenappbridge:
